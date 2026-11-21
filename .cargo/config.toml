@@ -1,0 +1,4 @@
+# Workaround: the MacOSX27.0 SDK in the Command Line Tools is broken ("tapi error: malformed
+# file" when linking). Link against 26.5 instead. Remove once the Command Line Tools are fixed.
+[env]
+SDKROOT = "/Library/Developer/CommandLineTools/SDKs/MacOSX26.5.sdk"
